@@ -11,11 +11,12 @@ dependencies:
   - 'libblas=*=*mkl'
   - jupyter>=1.0.0
   - pytorch >=1.7.0,<2.0.0
+  - cudatoolkit=10.1
+  - magma-cuda101=2.5.2
   - jedi=0.17.2
-  - cpuonly
-  - fastcluster
   - torchvision
   - torchtext
+  - fastcluster
   - seaborn
   - requests
   - plotly
